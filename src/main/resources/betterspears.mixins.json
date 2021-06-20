@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.betterspears.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemRendererMixin",
+    "PlayerEntityMixin",
+    "MinecraftClientMixin",
+    "EnchantmentHelperMixin",
+    "EnchantmentMixin",
+    "LivingEntityMixin",
+    "AreaEffectCloudEntityMixin"
+  ],
+  "client": [
+    "BipedEntityModelMixin",
+    "HeldItemFeatureRendererMixin",
+    "AbstractClientPlayerEntityMixin",
+    "ClientLivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "betterspears",
+  "version": "1.1.1",
+  "name": "Medieval Weapons",
+  "description": "Old but gold weapons from the series Songs of War which is made by Plasma Studios. All credits go to Plasma Studios",
+  "authors": [
+    "Globox_Z"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/medievalweapons",
+    "sources": "https://github.com/Globox1997/MedievalWeapons",
+    "issues": "https://github.com/Globox1997/MedievalWeapons/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/betterspears/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.betterspears.SpearsMain"
+    ],
+    "client": [
+      "net.betterspears.SpearsClient"
+    ],
+    "modmenu": [
+      "net.betterspears.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "betterspears.mixins.json"
+  ],
+  "depends": {
+    "nbtcrafting": "*",
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  },
+  "accessWidener": "betterspears.aw"
+}
